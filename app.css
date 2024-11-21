@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding: 33px 9%;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    background: transparent;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    
+}
+
+nav .navbar a {
+    border-bottom: 3px transparent solid;
+    color: white;
+    font-weight: 600;
+    transition: all .55s ease;
+    font-size: 1em;
+}
+
+nav .navbar a:hover {
+    border-bottom: 3px white solid;
+}
+
+.bx {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none !important;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+    
+}
+
+main .pokemon-text {
+    width: 500px;
+    padding: 30px;
+}
+
+.pokemon-text h3 {
+    margin-bottom: 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pokemon-text h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.pokemon-text h1 {
+    font-family: "Permanent Marker", serif;
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 0 45px;
+}
+
+.pokemon-text p {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 40px;
+    line-height: 1.9;
+}
+
+main .bulbasaur {
+    width: 500px;
+}
+
+main .bulbasaur img {
+    width: 500px;
+}
+
+.pokemon-text a {
+    display: inline-block;
+    color: white;
+    background: #4d9559;
+    border: 1px solid transparent;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-right: 5px;
+    transition: all .55s ease-in-out;
+}
+
+.pokemon-text a:hover {
+    color: #4d9559;
+    background-color: white;
+}
+
+
+
+
+
